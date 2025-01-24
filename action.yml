@@ -1,0 +1,10 @@
+name: "Custom Hello World Action"
+description: "Prints a Hello World message"
+author: "Himal Shrestha"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+inputs: {}
+outputs: {}
